@@ -1,0 +1,23 @@
+<?php
+$dia = 3; //Muestra dia miercoles
+
+switch ($dia) {
+    case 1: //Hace la comparacion
+        echo "Lunes";
+        break; //Ejecuta switch
+    case 2:
+        echo "Martes";
+        break;
+    case 3:
+        echo "Miércoles";
+        break;
+    case 4:
+        echo "Jueves";
+        break;
+    case 5:
+        echo "Viernes";
+        break;
+    default:
+        echo "Fin de semana";
+    }
+?>
